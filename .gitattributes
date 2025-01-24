@@ -1,0 +1,4 @@
+CIFAR10 filter=lfs diff=lfs merge=lfs -text
+ECG filter=lfs diff=lfs merge=lfs -text
+FMNIST filter=lfs diff=lfs merge=lfs -text
+mini_ImageNet filter=lfs diff=lfs merge=lfs -text

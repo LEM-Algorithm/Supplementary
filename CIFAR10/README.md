@@ -1,3 +1,4 @@
-The file CIFAR_10 contains the training and corresponding testing code for the neural network. Before running CIFAR_10, we need to replace the train function in the file Trainer with the train function in the file train. The file Trainer is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
-The files data_batch_1~data_batch5 are the training set and the file test_batch is the test set.
-The file net_pretrain contains a neural network trained using the LEM algorithm (our method) for your reference and testing.
+The file **_CIFAR_10.m_** contains the training and corresponding testing code for the neural network. Before running it, we need to replace the train function in the file **_Trainer.m_** with the train function in the file **_train.m_**. The file **_Trainer.m_** is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
+The files **_data_batch_1.m_**~**_data_batch5.m_** are the training set and the file **_test_batch.m_** is the test set. They are stored on the cloud drive (https://drive.google.com/drive/folders/1L4DKvUz-5IO-PoOq6HhBYaEOARL8cLyC?usp=sharing). Please download these 6 files first and directly put them in this folder (**_CIFAR_10_**). 
+
+The file **_net_pretrain.m_** contains a neural network trained using the LEM algorithm (our method) for your reference and testing. This file is also stored on the cloud drive above.

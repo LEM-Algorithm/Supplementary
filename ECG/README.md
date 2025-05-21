@@ -1,3 +1,4 @@
-The file ECG contains the training and corresponding testing code for the neural network. Before running ECG, we need to replace the train function in the file Trainer with the train function in the file train. The file Trainer is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
-The file ECG_Data contains the training set and the test set.
-The file net_pretrain contains a neural network trained using the LEM algorithm (our method) for your reference and testing.
+The file **_ECG.m_** contains the training and corresponding testing code for the neural network. Before running it, we need to replace the train function in the file **_Trainer.m_** with the train function in the file **_train.m_**. The file **_Trainer.m_** is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
+The file **_ECG_Data.m_** contains the training set and the test set. It is stored on the cloud drive (https://drive.google.com/drive/folders/1khnd2e0sBh00sla21gpN8mge7HvVNzcn?usp=sharing). Please download it first and directly put it in this folder (**_ECG_**).
+
+The file **_net_pretrain.m_** contains a neural network trained using the LEM algorithm (our method) for your reference and testing. This file is also stored on the cloud drive above.

@@ -1,3 +1,4 @@
-The file _mini_ImageNet_ contains the training and corresponding testing code for the neural network. 
-The file Layer_graph contains the network to be trained in this task. Before running mini_ImageNet, we need to replace the train function in the file Trainer with the train function in the file train. 
-The file Trainer is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
+The file _mini_ImageNet_ contains the training and corresponding testing code for the neural network. The file _Layer_graph_ contains the network to be trained in this task. Before running _mini_ImageNet_, we need to replace the train function in the file _Trainer_ with the train function in the file _train_. The file _Trainer_ is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
+The files train_set and val_set are the training set and validation set which are stored on the
+cloud drive (https://drive.google.com/drive/folders/1iQy66pQee1Z2RAUjgDdWpe0Vxefc5bBm?usp=sharing). Please download these 2 files first and directly put them in this folder (_mini_ImageNet_). The files _imagenet_train_ and _imagenet_val_ show how to partition the original dataset.
+The file _net_pretrain_ contains a neural network trained using the LEM algorithm (our method) for your reference and testing. This file is also stored on the cloud drive above.

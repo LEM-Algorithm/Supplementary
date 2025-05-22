@@ -3,7 +3,7 @@ The file **_ILSVRC2012.m_** contains the training and corresponding testing code
 Before training, please download the ILSVRC2012 data set from the website address https://image-net.org/ first (Training images & Validation images). Then, please organize the Training set and Validation set separately into two folders, **_Train_** and **_validation_**, and place these two folders directly into the current folder (**_ILSVRC2012_**). The structure of folders **_Train_** and **_validation_** is as follows.
 
 |-- Train  
-\. |-- n01440764  
+&nbsp|-- n01440764  
     |   |-- picture1  
     |   |-- picture2  
     |   |-- picture3  

@@ -1,14 +1,8 @@
-project-name/  
-│  
-├── dir1/  
-│   ├── file1.ext  
-│   └── file2.ext  
-│  
-├── dir2/  
-│   ├── sub-dir1/  
-│   │   └── file3.ext  
-│   └── sub-dir2/  
-│  
-└── dir3/  
-    ├── file4.ext  
-    └── file5.ext  
+文件夹1/  
+├── 文件1.txt  
+├── 文件2.md  
+└── 子文件夹1/  
+    ├── 子文件1.py  
+    └── 子文件2.js  
+文件夹2/  
+└── 文件3.jpg  

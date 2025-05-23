@@ -1,6 +1,6 @@
 The file **_ILSVRC2012.m_** contains the training and corresponding testing code for the neural network. The file **_Layer_graph.mat_** contains the network to be trained in this task. Before running **_ILSVRC2012.m_**, we need to replace the train function in the file **_Trainer.m_** with the train function in the file **_train.m_**. The file **_Trainer.m_** is usually located in the toolbox folder that comes with Matlab (the specific location is as follows: toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m).
 
-Before training, please download the ILSVRC2012 data set from the website address https://image-net.org/ first (Training images & Validation images). Then, please organize the Training set and Validation set separately into two folders, **_Train_** and **_validation_**, and place these two folders directly into the current folder (**_ILSVRC2012_**). The structure of folders **_Train_** and **_validation_** is as follows.
+Before training, please download the ILSVRC2012 data set from https://image-net.org/ (Training images & Validation images). Then, please organize the Training set and Validation set separately into two folders, **_Train_** and **_validation_**, and place these two folders directly into the current folder (**_ILSVRC2012_**). The structure of folders **_Train_** and **_validation_** is as follows.
 
 <pre>
 |-- Train  
